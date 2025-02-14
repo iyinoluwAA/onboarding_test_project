@@ -24,6 +24,6 @@ syntax = "proto3";
         string ds = 1;         // Date
         float yhat = 2;        // Predicted value
         float yhat_lower = 3;  // Lower bound
-        float yhat_upper = 4;  // Upper bound   
+        float yhat_upper = 4;  // Upper bound
      }
      forecaster.proto

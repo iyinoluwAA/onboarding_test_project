@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "display_name": "Time Series Forecaster",
+    "encoding": "proto",
+    "service_type": "grpc",
+    "service_api_source": "ipfs://QmQ1QPR6xVadWK6Q3t3gXXV5nRt91CKfeYVp3Z54T6emBq",
+    "mpe_address": "0x7E0aF8988DF45B824b2E0e0A87c6196897744970",
+    "groups": [
+        {
+            "group_name": "ZGVmYXVsdF9ncm91cA==",
+            "endpoints": [
+                "http://0.0.0.0:7000"
+            ],
+            "pricing": [
+                {
+                    "price_model": "fixed_price",
+                    "price_in_cogs": 1,
+                    "default": true
+                }
+            ]
+        }
+    ],
+    "assets": {},
+    "media": [],
+    "tags": []
+}

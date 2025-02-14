@@ -1,0 +1,28 @@
+{
+    "blockchain_enabled": true,
+    "blockchain_network_selected": "sepolia",
+    "daemon_end_point": "0.0.0.0:7000",
+    "daemon_group_name": "ZGVmYXVsdF9ncm91cA==",
+    "ipfs_end_point": "http://ipfs.singularitynet.io:80",
+    "organization_id": "my-ai-timeseries",
+    "service_id": "time-series-forecaster", 
+    "passthrough_enabled": true,
+    "passthrough_endpoint": "http://102.89.83.147:8000",
+    "metering_enabled": false,
+    "metering_end_point": "https://marketplace-mt-v2.singularitynet.io",
+    "pvt_key_for_metering": "05d1d628da15bac0059981ad4dcfd8fd3937e03d0fc9fd0a1f0fce33e8d6357f", 
+    "ethereum_json_rpc_http_endpoint": "https://eth-sepolia.g.alchemy.com/v2/mPCFObqUv-Opg7va2E_rPke0BAIWSmHg",
+    "ethereum_json_rpc_ws_endpoint": "wss://eth-sepolia.g.alchemy.com/v2/mPCFObqUv-Opg7va2E_rPke0BAIWSmHg",
+    "payment_channel_storage_server": {
+    "enabled": true,
+    "scheme": "http",
+    "host": "127.0.0.1",
+    "client_port": 2379,
+    "peer_port": 2380,
+    "token": "unique-token-123",
+    "cluster": "storage-1=http://0.0.0.0:2380",
+    "data_dir": "data.etcd",
+    "log_level": "info"
+    },
+      "log": {"level": "debug", "output": {"type": "stdout"}}
+  }

@@ -1,0 +1,38 @@
+{
+    "org_name": "my-ai-timeseries",
+    "org_id": "my-ai-timeseries",
+    "org_type": "individual",
+    "description": {
+        "description": "Decentralized time series forecasting service powered by Prophet.",
+        "short_description": "AI-powered time series forecasting",
+        "url": "https://github.com/iyinoluwAA/onboarding_test_project"
+    },
+    "assets": {
+        "website": "https://github.com/iyinoluwAA/onboarding_test_project"
+    },
+    "contacts": [
+        {
+            "contact_type": "general",
+            "email": "iyinoluwa150@gmail.com",
+            "phone": ""
+        }
+    ],
+    "groups": [
+        {
+            "group_name": "ZGVmYXVsdF9ncm91cA==",
+            "group_id": "ZGVmYXVsdF9ncm91cA==",
+            "payment": {
+                "payment_address": "0x4FcD2E9519F1D7C31308F105a3d33DE7D18c87D2",
+                "payment_expiration_threshold": 40320,
+                "payment_channel_storage_type": "etcd",
+                "payment_channel_storage_client": {
+                    "connection_timeout": "100s",
+                    "request_timeout": "5s",
+                    "endpoints": [
+                        "http://102.89.83.147:7000"
+                    ]
+                }
+            }
+        }
+     ]
+    }
