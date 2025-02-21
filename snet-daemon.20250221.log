@@ -1,0 +1,33 @@
+2025-02-21T06:54:00.395Z	INFO	Logger initialized
+2025-02-21T06:54:00.395Z	INFO	Final configuration: 
+2025-02-21T06:54:00.395Z	INFO	alerts_email	{"value": ""}
+2025-02-21T06:54:00.395Z	INFO	allowed_user_flag	{"value": false}
+2025-02-21T06:54:00.395Z	INFO	auto_ssl_cache_dir	{"value": ".certs"}
+2025-02-21T06:54:00.395Z	INFO	auto_ssl_domain	{"value": ""}
+2025-02-21T06:54:00.395Z	INFO	blockchain_enabled	{"value": true}
+2025-02-21T06:54:00.395Z	INFO	blockchain_network_selected	{"value": "sepolia"}
+2025-02-21T06:54:00.395Z	INFO	daemon_end_point	{"value": "0.0.0.0:7000"}
+2025-02-21T06:54:00.395Z	INFO	daemon_group_name	{"value": "default group"}
+2025-02-21T06:54:00.395Z	INFO	daemon_type	{"value": "grpc"}
+2025-02-21T06:54:00.395Z	INFO	ipfs_end_point	{"value": "http://ipfs.singularitynet.io:80"}
+2025-02-21T06:54:00.395Z	INFO	ipfs_timeout	{"value": 60}
+2025-02-21T06:54:00.395Z	INFO	max_message_size_in_mb	{"value": 4}
+2025-02-21T06:54:00.395Z	INFO	metering_enabled	{"value": false}
+2025-02-21T06:54:00.395Z	INFO	metering_end_point	{"value": "https://marketplace-mt-v2.singularitynet.io"}
+2025-02-21T06:54:00.395Z	INFO	organization_id	{"value": "my-ai-timeseries"}
+2025-02-21T06:54:00.395Z	INFO	passthrough_enabled	{"value": true}
+2025-02-21T06:54:00.395Z	INFO	passthrough_endpoint	{"value": "http://127.0.0.1:8000"}
+2025-02-21T06:54:00.395Z	INFO	payment_channel_storage_type	{"value": "etcd"}
+2025-02-21T06:54:00.395Z	INFO	service_heartbeat_type	{"value": "http"}
+2025-02-21T06:54:00.395Z	INFO	service_id	{"value": "time_series_forecaster"}
+2025-02-21T06:54:00.395Z	INFO	ssl_cert	{"value": ""}
+2025-02-21T06:54:00.395Z	INFO	ssl_key	{"value": ""}
+2025-02-21T06:54:00.396Z	INFO	Getting payment channel storage sever	{"conf": {"ID":"storage-1","Scheme":"http","Host":"0.0.0.0","client_port":2379,"peer_port":2380,"Token":"unique-token-123","Cluster":"storage-1=http://0.0.0.0:2380","startup_timeout":60000000000,"Enabled":true,"data_dir":"data.etcd","log_level":"info","log_outputs":["./etcd-server.log"]}}
+2025-02-21T06:54:00.396Z	INFO	Getting etcd config	{"PaymentChannelStorageServer": "&{ID:storage-1 Scheme:http Host:0.0.0.0 ClientPort:2379 PeerPort:2380 Token:unique-token-123 Cluster:storage-1=http://0.0.0.0:2380 StartupTimeout:1m0s Enabled:true DataDir:data.etcd LogLevel:info LogOutputs:[./etcd-server.log]}", "ClientURL": "http://0.0.0.0:2379", "PeerURL": "http://0.0.0.0:2379"}
+2025-02-21T06:54:01.523Z	INFO	Derive data from JSON	{"Network": "sepolia", "Network id": "11155111", "Registry address": "0x4DCc70c6FCE4064803f0ae0cE48497B3f7182e5D", "Blockchain http endpoint": "https://eth-sepolia.g.alchemy.com/v2/mPCFObqUv-Opg7va2E_rPke0BAIWSmHg", "Blockchain ws endpoint": "wss://eth-sepolia.g.alchemy.com/v2/mPCFObqUv-Opg7va2E_rPke0BAIWSmHg"}
+2025-02-21T06:54:01.527Z	WARN	there is a newer version of the Daemon v5.1.6 available. You are currently on v5.1.5, please consider upgrading
+2025-02-21T06:54:01.691Z	DEBUG	Before Formatting	{"metadataHash": "ipfs://QmTU8Uudjj7pdDTQ5CS7Pztienxn46iDhjiq4cPxWhb8hG\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"}
+2025-02-21T06:54:01.691Z	DEBUG	After Formatting	{"metadataHash": "QmTU8Uudjj7pdDTQ5CS7Pztienxn46iDhjiq4cPxWhb8hG"}
+2025-02-21T06:54:01.691Z	DEBUG	Hash Used to retrieve from IPFS	{"hash": "QmTU8Uudjj7pdDTQ5CS7Pztienxn46iDhjiq4cPxWhb8hG"}
+2025-02-21T06:54:01.891Z	ERROR	Error in set group	{"error": "group name default group in config is invalid, there was no group found with this name in the metadata"}
+2025-02-21T06:54:01.891Z	PANIC	error on determining service metadata from file	{"error": "group name default group in config is invalid, there was no group found with this name in the metadata"}
